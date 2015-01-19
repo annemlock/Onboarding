@@ -1,0 +1,167 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    font-family: "Citrix Sans";
+    font-weight: 400;
+    font-size: 16px;
+	background-color: #fff;
+	color: #EAECEC; 
+}
+a{
+	color: #75D1FF;
+}
+a:hover{
+	color: #288C80;
+	text-decoration: none;
+	
+}
+.jumbotron h1 {
+  	font-family: "Citrix Sans";
+	font-size: 60px;
+  	font-style: normal;
+  	color: #EAECEC;
+	width: 650px;
+} 
+h4{
+	font-family: "arial";
+}
+.container{
+	
+}
+.jumbotron{
+	padding-top: 50px;
+	padding-bottom: 0px;
+	background-color: #fff;
+}
+.header{
+	padding-top: 100px;
+	padding-bottom: 0px;
+	background-color: #8997AD;
+}
+.logo{
+	padding-bottom: 90px;
+}
+.header p{
+	width: 650px;
+	padding-top: 20px;
+}
+.hero{
+	float: right;
+	padding-top: 50px;
+	padding-left: 20px;
+}
+.web{
+	width: 900px;
+	margin: auto;
+}
+h2{
+	font-size: 40px;
+	color: #4a4a4a;	
+}
+.web, .settings, .numbers h2{
+	text-align: center;
+}
+.web, .settings, .numbers, .footer p{
+	color: #6A778E;
+	font-size: 22px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.tools{
+	display: block;
+	margin: auto;
+}
+.login{
+	background-color: #907BE1;
+	border-color: #907BE1;
+	border-radius: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.ov{
+	background-color: #75D1FF;
+	border-color: #75D1FF;
+	border-radius: 0px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.line{
+	border-bottom: 1px solid #CACED3; 
+	width: 75%;
+	margin: auto;
+	padding-top: 30px;
+}
+.mobileline{
+	border-bottom: 1px solid #CACED3; 
+	width: 75%;
+	margin: auto;
+}
+.vc, .mobile{
+	width: 90%;
+	margin: auto;
+}
+.vc, .mobile p{
+	color: #6A778E;
+	font-size: 22px;
+}
+.vc img{
+	float: right;
+	padding-left: 50px;
+	padding-bottom: 30px;
+}
+.mobile img{
+	float: right;
+	padding-left: 50px;
+	margin-bottom: 0px;
+}
+.row{
+	padding-top: 50px;
+}
+.settings{
+	width: 90%;
+	margin: auto;
+}
+.settings h3{
+	color: #4a4a4a;
+	text-align: center;
+}
+.settings, .numbers img{
+	display: block;
+	margin: auto;
+}
+.col-sm-4 {
+	padding-left: 75px;
+	padding-right: 75px;
+}
+.col-sm-4 p{
+	font-size: 18px;
+}
+.scheduling{
+	background-color: #DADDE0;
+}
+.scheduling img{
+	float: right;
+	padding-left: 50px;
+	margin-right: -300px;
+}
+.scheduling p{
+	color: #6A778E;
+	font-size: 18px;
+}
+.right{
+	float:left;
+	margin-right: 20px;
+	margin-bottom: 0;
+}
+.footer{
+	background-color: #EAECEC;
+}
+.footer h3{
+	color: #4a4a4a;
+	text-align: center;
+}
+
+
+.footer p{
+	color: #000; /* Fallback for older browsers */
+	color: rgba(0, 0, 0, 0.5);
+}
