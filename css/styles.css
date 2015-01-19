@@ -1,6 +1,6 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-    font-family: "Citrix Sans";
+    font-family: "citrixsans-regular";
     font-weight: 400;
     font-size: 16px;
 	background-color: #fff;
@@ -15,18 +15,12 @@ a:hover{
 	
 }
 .jumbotron h1 {
-  	font-family: "Citrix Sans";
+  	font-family: "citrixsans-light";
 	font-size: 60px;
   	font-style: normal;
   	color: #EAECEC;
 	width: 650px;
 } 
-h4{
-	font-family: "arial";
-}
-.container{
-	
-}
 .jumbotron{
 	padding-top: 50px;
 	padding-bottom: 0px;
@@ -165,3 +159,70 @@ h2{
 	color: #000; /* Fallback for older browsers */
 	color: rgba(0, 0, 0, 0.5);
 }
+
+/*! Citrix Sans web font v1.0.0 */
+@font-face{
+  font-family:citrixsans-regular;
+  src:url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-regular.eot);
+  src:url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-regular.eot?#iefix) format('eot'),
+  url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-regular.woff) format('woff'),
+  url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-regular.ttf) format('truetype'),
+  url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-regular.svg#7816f72f-f47e-4715-8cd7-960e3723846a) format('svg')
+}
+@font-face{
+  font-family:citrixsans-bold;
+  src:url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-bold.eot);
+  src:url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-bold.eot?#iefix) format('eot'),
+  url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-bold.woff) format('woff'),
+  url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-bold.ttf) format('truetype'),
+  url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-bold.svg#7816f72f-f47e-4715-8cd7-960e3723846a) format('svg')
+}
+@font-face{
+  font-family:citrixsans-bolditalic;
+  src:url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-bolditalic.eot);
+  src:url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-bolditalic.eot?#iefix) format('eot'),
+  url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-bolditalic.woff) format('woff'),
+  url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-bolditalic.ttf) format('truetype'),
+  url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-bolditalic.svg#7816f72f-f47e-4715-8cd7-960e3723846a) format('svg')
+}
+@font-face{
+  font-family:citrixsans-italic;
+  src:url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-italic.eot);
+  src:url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-italic.eot?#iefix) format('eot'),
+  url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-italic.woff) format('woff'),
+  url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-italic.ttf) format('truetype'),
+  url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-italic.svg#7816f72f-f47e-4715-8cd7-960e3723846a) format('svg')
+}
+@font-face{
+  font-family:citrixsans-light;
+  src:url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-light.eot);
+  src:url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-light.eot?#iefix) format('eot'),
+  url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-light.woff) format('woff'),
+  url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-light.ttf) format('truetype'),
+  url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-light.svg#7816f72f-f47e-4715-8cd7-960e3723846a) format('svg')
+}
+@font-face{
+  font-family:citrixsans-lightitalic;
+  src:url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-lightitalic.eot);
+  src:url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-lightitalic.eot?#iefix) format('eot'),
+  url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-lightitalic.woff) format('woff'),
+  url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-lightitalic.ttf) format('truetype'),
+  url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-lightitalic.svg#7816f72f-f47e-4715-8cd7-960e3723846a) format('svg')
+}
+@font-face{
+  font-family:citrixsans-semibold;
+  src:url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-semibold.eot);
+  src:url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-semibold.eot?#iefix) format('eot'),
+  url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-semibold.woff) format('woff'),
+  url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-semibold.ttf) format('truetype'),
+  url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-semibold.svg#7816f72f-f47e-4715-8cd7-960e3723846a) format('svg')
+}
+@font-face{
+  font-family:citrixsans-semibolditalic;
+  src:url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-semibolditalic.eot);
+  src:url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-semibolditalic.eot?#iefix) format('eot'),
+  url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-semibolditalic.woff) format('woff'),
+  url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-semibolditalic.ttf) format('truetype'),
+  url(//weblibrary.cdn.citrixonline.com/fonts/citrix-sans/citrixsans-semibolditalic.svg#7816f72f-f47e-4715-8cd7-960e3723846a) format('svg')
+}
+        
