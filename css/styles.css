@@ -63,12 +63,10 @@ h2{
 	text-align: center;
 	padding-bottom: 50px;
 }
-.web p, .web h2{
-  	color: #CACED3;
-}
+
 .web{
 	margin: auto;
-	background-color: #546075;
+	background-color: #DADDE0;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
