@@ -1,19 +1,25 @@
-/* Move down content because we have a fixed navbar that is 50px tall */
 body {
     font-family: "citrixsans-regular";
     font-weight: 400;
     font-size: 16px;
 	background-color: #fff;
-	color: #EAECEC; 
+	color: #EAECEC;
+}	
+.container{
+	max-width: 1200px;
 }
 a{
 	color: #75D1FF;
 }
 a:hover{
-	color: #288C80;
+	color: #309DDC;
 	text-decoration: none;
 	
 }
+h2{
+	font-family: "citrixsans-light";
+}
+
 .jumbotron h1 {
   	font-family: "citrixsans-light";
 	font-size: 60px;
@@ -30,6 +36,7 @@ a:hover{
 	padding-top: 100px;
 	padding-bottom: 0px;
 	background-color: #8997AD;
+	margin: 0;
 }
 .logo{
 	padding-bottom: 90px;
@@ -43,10 +50,6 @@ a:hover{
 	padding-top: 50px;
 	padding-left: 20px;
 }
-.web{
-	width: 900px;
-	margin: auto;
-}
 h2{
 	font-size: 40px;
 	color: #4a4a4a;	
@@ -58,7 +61,16 @@ h2{
 	color: #6A778E;
 	font-size: 22px;
 	text-align: center;
-	padding-bottom: 30px;
+	padding-bottom: 50px;
+}
+.web p, .web h2{
+  	color: #CACED3;
+}
+.web{
+	margin: auto;
+	background-color: #546075;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 .tools{
 	display: block;
@@ -71,6 +83,10 @@ h2{
 	padding-left: 50px;
 	padding-right: 50px;
 }
+.login:hover{
+	background-color: #7361AF;
+	border-color: #7361AF;
+}
 .ov{
 	background-color: #75D1FF;
 	border-color: #75D1FF;
@@ -78,6 +94,11 @@ h2{
 	padding-left: 50px;
 	padding-right: 50px;
 }
+.ov:hover{
+	background-color: #309DDC;
+	border-color: #309DDC;
+}
+
 .line{
 	border-bottom: 1px solid #CACED3; 
 	width: 75%;
@@ -122,6 +143,9 @@ h2{
 	display: block;
 	margin: auto;
 }
+.numbers img{
+	padding-bottom: 125px;
+}
 .col-sm-4 {
 	padding-left: 75px;
 	padding-right: 75px;
@@ -148,6 +172,8 @@ h2{
 }
 .footer{
 	background-color: #EAECEC;
+	margin-bottom: 0; 
+}
 }
 .footer h3{
 	color: #4a4a4a;
