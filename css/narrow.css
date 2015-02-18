@@ -1,0 +1,37 @@
+@media all and (max-width: 640px) {	
+	
+	.vc img, .numbers img, .scheduling img{
+		width: 95%;
+		float: none;
+		margin: auto;
+	}
+	
+	.mobile img{
+		width: 90%;
+		float: none;
+		margin: auto;
+	}
+	
+	.header img{
+		width: 95%;
+		float: none;
+		margin: auto;
+		max-width: 280px;
+	}
+	
+	.logo img{
+		
+	}
+	
+	.header h1{
+		font-size: 45px;
+	}
+	.ov{
+		margin-top: 10%;
+	}
+	.col-sm-4 {
+		padding-top: 15%;
+	}
+}
+	
+	

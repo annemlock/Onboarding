@@ -25,7 +25,7 @@ h2{
 	font-size: 60px;
   	font-style: normal;
   	color: #EAECEC;
-	width: 650px;
+	
 } 
 .jumbotron{
 	padding-top: 50px;
@@ -42,13 +42,12 @@ h2{
 	padding-bottom: 90px;
 }
 .header p{
-	width: 650px;
 	padding-top: 20px;
 }
 .hero{
 	float: right;
-	padding-top: 50px;
-	padding-left: 20px;
+	padding-top: 5%;
+	padding-left: 10%;
 }
 h2{
 	font-size: 40px;
@@ -105,10 +104,10 @@ h2{
 }
 .mobileline{
 	border-bottom: 1px solid #CACED3; 
-	width: 75%;
+	width: 100%;
 	margin: auto;
 }
-.vc, .mobile{
+.vc, .mobile, .settings{
 	width: 90%;
 	margin: auto;
 }
@@ -129,10 +128,6 @@ h2{
 .row{
 	padding-top: 50px;
 }
-.settings{
-	width: 90%;
-	margin: auto;
-}
 .settings h3{
 	color: #4a4a4a;
 	text-align: center;
@@ -144,9 +139,13 @@ h2{
 .numbers img{
 	padding-bottom: 125px;
 }
+.row{
+	width: 75%;
+	margin: auto;
+}
 .col-sm-4 {
-	padding-left: 75px;
-	padding-right: 75px;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 .col-sm-4 p{
 	font-size: 18px;
@@ -166,19 +165,16 @@ h2{
 .right{
 	float:left;
 	margin-right: 20px;
-	margin-bottom: 0;
 }
 .footer{
 	background-color: #EAECEC;
 	margin-bottom: 0; 
 }
-}
+
 .footer h3{
 	color: #4a4a4a;
 	text-align: center;
 }
-
-
 .footer p{
 	color: #000; /* Fallback for older browsers */
 	color: rgba(0, 0, 0, 0.5);
