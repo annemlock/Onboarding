@@ -1,18 +1,22 @@
 body {
     font-family: "citrixsans-regular";
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
 	background-color: #fff;
 	color: #EAECEC;
 }	
+.jumbotron p{
+	font-size: 18px;
+}
 .container{
 	max-width: 1200px;
 }
 a{
-	color: #75D1FF;
-}
-a:hover{
 	color: #309DDC;
+}
+
+a:hover{
+	color: #65C6FF;
 	text-decoration: none;
 	
 }
@@ -50,7 +54,7 @@ h2{
 	padding-left: 10%;
 }
 h2{
-	font-size: 40px;
+	font-size: 36px;
 	color: #4a4a4a;	
 }
 .web, .settings, .numbers h2{
@@ -58,14 +62,14 @@ h2{
 }
 .web, .settings, .numbers, .footer p{
 	color: #6A778E;
-	font-size: 22px;
+	font-size: 18px;
 	text-align: center;
 	padding-bottom: 50px;
 }
 
 .web{
 	margin: auto;
-	background-color: #DADDE0;
+	background-color: #fff;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -91,6 +95,14 @@ h2{
 	padding-left: 50px;
 	padding-right: 50px;
 }
+.ovdark{
+	background-color: #309DDC;
+	border-color: #309DDC;
+	border-radius: 0px;
+	padding-left: 50px;
+	padding-right: 50px;	
+}
+
 .ov:hover{
 	background-color: #309DDC;
 	border-color: #309DDC;
@@ -113,7 +125,10 @@ h2{
 }
 .vc, .mobile p{
 	color: #6A778E;
-	font-size: 22px;
+	font-size: 20px;
+}
+.mobile {
+	margin-top: 100px;
 }
 .vc img{
 	float: right;
@@ -121,8 +136,8 @@ h2{
 	padding-bottom: 30px;
 }
 .mobile img{
-	float: right;
-	padding-left: 50px;
+	float: left;
+	padding-right: 50px;
 	margin-bottom: 0px;
 }
 .row{
@@ -138,20 +153,22 @@ h2{
 }
 .numbers img{
 	padding-bottom: 125px;
+	margin-top: 50px;
 }
 .row{
 	width: 75%;
 	margin: auto;
 }
 .col-sm-4 {
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 3%;
+	padding-right: 3%;
 }
 .col-sm-4 p{
-	font-size: 18px;
+	font-size: 16px;
 }
 .scheduling{
 	background-color: #DADDE0;
+	margin-bottom: 0;
 }
 .scheduling img{
 	float: right;
@@ -166,18 +183,25 @@ h2{
 	float:left;
 	margin-right: 20px;
 }
-.footer{
+.footer, .copyright{
 	background-color: #EAECEC;
 	margin-bottom: 0; 
 }
-
 .footer h3{
 	color: #4a4a4a;
-	text-align: center;
+	text-align: center;	
 }
-.footer p{
-	color: #000; /* Fallback for older browsers */
-	color: rgba(0, 0, 0, 0.5);
+.copyright{
+	padding-bottom: 100px;
+	
+}
+
+.copyright p{
+	font-size: 12px;
+	color: #8997AD;
+	text-align: center;
+	width: 75%;
+	margin: auto;
 }
 
 /*! Citrix Sans web font v1.0.0 */
